@@ -1,7 +1,7 @@
 # The best git hub repo
-this is the Readme file -
+This is the Readme file -
 
-the best wasy are:
+The best wasy are:
 - eat
 - drink
 - sleep

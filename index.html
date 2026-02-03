@@ -1,11 +1,167 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HOme- This is my Website</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .header {
+            display: flex;
+            justify-content: center;
+            background-image: linear-gradient(to right, rgb(141, 141, 141), rgb(83, 81, 81));
+            color: black;
+            padding: 10px;
+            text-align: center;
+            height: 50px;
+
+        }
+
+        p {
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        .table1 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 400px;
+            background-image: linear-gradient(to right, rgb(239, 185, 185), rgb(240, 149, 149));
+        }
+
+        table {
+            width: 50%;
+            margin: auto;
+            text-align: center;
+            height: 300px;
+            width: 700px;
+            background-color: yellow;
+            /* border-radius: 30px; */
+            border-radius: 15px;
+
+        }
+
+        table,
+        th,
+        td {
+            /* border: 1px solid black; */
+            border: 1px solid black;
+            border-collapse: collapse;
+            align-items: center;
+
+        }
+
+        .color-red {
+            color: red;
+        }
+
+        th,
+        td {
+            padding: 10px;
+        }
+        span.hero {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            margin: 50px;
+
+        }  
+        
+        .about-class {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-image: linear-gradient(to right, rgb(75, 75, 75), rgb(77, 65, 65));
+            
+        } 
+        .about-class button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+            border: none;
+            background-color: rgb(240, 149, 149);
+        }  
+
+        .about-class a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        footer {
+            text-align: center;
+            background-image: linear-gradient(to right, rgb(141, 141, 141), rgb(83, 81, 81));
+            color: black;
+            height: 50px;
+            padding: 10px;
+        }
+    </style>
 </head>
+
 <body>
-    <p>This is my website</p>
+    <div class="header">
+        <p><span class="color-red">Welcome!</span>This is my <span class="color-red">awesome </span>website</p>
+    </div>
+    <div class="table1">
+        <span class="hero">
+            <span class="left">
+                <table>
+                    <th>
+                    <td>Name</td>
+                    <td>PRN</td>
+                    </th>
+                    <tr>
+
+                        <td>1</td>
+                        <td>John Doe</td>
+                        <td>123456</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Jane Smith</td>
+                        <td>654321</td>
+                    </tr>
+                </table>
+            </span>
+            <span class="right">
+                <table>
+                    <th>
+                    <td>Name</td>
+                    <td>PRN</td>
+                    </th>
+                    <tr>
+
+                        <td>1</td>
+                        <td>John Doe</td>
+                        <td>123456</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Jane Smith</td>
+                        <td>654321</td>
+                    </tr>
+                </table>
+            </span>
+        </span>
+        
+    </div>
+    <div class="about-class">
+            <button ><a href="about.html">About</a></button>
+            
+        </div>
+    
+
+    <footer>
+        <p>Copyright <span class="color-red">©</span> 2026</p>
+    </footer>
+
 </body>
+
 </html>
